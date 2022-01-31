@@ -1,7 +1,7 @@
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
 
-const fps = 30; //fps target
+const fps = 30; //60 may perform better on certain hardware
 const movementSpeed = 2;
 const cannonBallSpeed = 8;
 const maxCannonAngle = 60;
